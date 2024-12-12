@@ -20,8 +20,8 @@ import org.firstinspires.ftc.robotcore.external.Telemetry;
 public class Intake {
     //All motors/servos/sensors
     private DcMotorEx arm;
-    private ServoImplEx pitch;
-    private CRServoImplEx intakest, intakedr;
+    private ServoImplEx servoPitch,servoAngle;
+    private CRServoImplEx intake;
     public Telemetry telemetry;
     public int[] armpos ={12,23,321};
 
